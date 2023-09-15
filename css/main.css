@@ -468,7 +468,7 @@ body {
 
         flex-direction: column;
     }
-
+    
     .login {
         display: none;
         visibility: none;
