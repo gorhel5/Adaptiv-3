@@ -11,3 +11,5 @@ navButton.addEventListener('click', () => {
         navImg.src = './img/nav-open.svg';
     }
 } );
+
+AOS.init();

@@ -9,8 +9,6 @@ body {
     --accent: #01996D;
 }
 
-
-
 .container {
     max-width: 1400px;
     padding: 0 15px;
@@ -170,7 +168,6 @@ body {
     justify-content: space-between;
 }
 .info-text__text {
-    /* padding-top: 50px; */
     max-width: 671px;
     font-family: 'Lato';
     font-size: 20px;
@@ -202,8 +199,6 @@ body {
     line-height: 150%;
     color: black;
     position: absolute;
-    /* top: 45px;
-    left: 90px; */
     top: 59.5%;
     left: 22%;
 }
@@ -467,7 +462,7 @@ body {
 
         flex-direction: column;
     }
-    
+
     .login {
         display: none;
         visibility: none;
