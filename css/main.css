@@ -441,7 +441,7 @@ body {
 
     .nav-button {
         display: block;
-        position: fixed;
+        position: absolute;
         z-index: 2;
         width: 30px;
         top: 22px;
@@ -449,16 +449,9 @@ body {
         
     }
 
-    /* .nav.open .nav-button {
-        display: block;
-        position: absolute;
-    } */
-
-
-    /* .nav.open .nav-list {
-        display: block;
-        visibility: visible;
-    } */
+    .nav.open .nav-button {
+        position: fixed;
+    }
 
     .nav.open .nav-list {
         display: flex;
@@ -475,15 +468,6 @@ body {
 
         flex-direction: column;
     }
-
-    /* .nav-menu {
-        display: block;
-    }  */
-
-    /* .nav-button {
-        display: block;
-        position: fixed;
-    } */
 
     .login {
         display: none;
@@ -517,9 +501,6 @@ body {
 
     .info-content {
         text-align: center;
-        /* margin: 0 auto; */
-        /* justify-content: center;
-        align-items: center; */
     }
 
     .info-cards {
